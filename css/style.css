@@ -1,0 +1,168 @@
+*,
+*::after,
+*::before {
+box-sizing: border-box;
+margin: 0;
+padding: 0;
+}
+body {
+overflow-x: hidden;
+margin: 0 auto;
+}
+a {
+text-decoration: none;
+color: #FFFFFF;
+}
+input {
+all: unset;
+}
+button {
+border: none;
+margin: 0;
+padding: 0;
+width: auto;
+overflow: visible;
+background: transparent;
+color: inherit;
+font: inherit;
+line-height: normal;
+-webkit-font-smoothing: inherit;
+-moz-osx-font-smoothing: inherit;
+}
+.titlepage{
+width: 1920px;
+height: 1149px;
+background: #040404;
+}
+/* HEADER */
+
+.header--logo{
+    font-family: 'Cormorant Upright';
+    font-weight: 700;
+    font-size: 44px;
+    line-height: 130%;
+    letter-spacing: 0.04em;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    padding-left: 120px;
+    padding-top: 32px;
+    padding-right: 437px;
+}
+.header--navigation{
+    display: flex;
+}
+.navigation--list{
+padding-top: 46px;
+display: flex;
+}
+.navigation--list__item{
+    font-family: 'Open Sans';
+    padding-right: 32px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 175%;
+    letter-spacing: 0.04em;
+}
+.navigation--list__item:nth-child(5){
+    padding-right: 0px; 
+}
+.header--login{
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 175%;
+    letter-spacing: 0.05em;
+    text-transform: capitalize;
+    color: #FFFFFF;
+    padding-left: 271px;
+}
+.header--line{
+    padding-left: 50px;
+    padding-right: 50px;
+    margin-top: -10px;
+}
+.header--book{
+font-family: 'Open Sans';
+font-style: normal;
+font-weight: 600;
+font-size: 16px;
+line-height: 175%;
+letter-spacing: 0.05em;
+text-transform: capitalize;
+color: #FFFFFF;
+}
+/* MAIN ONE PAGE */
+.gericht--newflavour__container{
+    display: flex;
+}
+.gericht--newflavour__containerleft{
+    padding-left: 310px;
+    padding-top: 207.5px;
+}
+.gericht--newflavour{
+    font-family: 'Cormorant Upright';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 23px;
+    line-height: 130%;
+    letter-spacing: 0.04em;
+    text-transform: capitalize;
+    font-feature-settings: 'tnum' on, 'lnum' on;
+    color: #FFFFFF;
+}
+.gericht--newflavour__icons{
+padding-top: 8px;
+}
+.gericht--newflavour__title{
+    font-family: 'Cormorant Upright';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 90px;
+    line-height: 130%;
+    letter-spacing: 0.04em;
+    text-transform: capitalize;
+    color: #DCCA87;
+    width: 454px;
+}
+.gericht--newflavour__text{
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 175%;
+    letter-spacing: 0.04em;
+    color: #AAAAAA;
+    width: 440px;
+}
+.gericht--newflavour__button{
+font-family: 'Cormorant Upright';
+font-style: normal;
+font-weight: 700;
+font-size: 16px;
+line-height: 175%;
+letter-spacing: 0.04em;
+color: #0C0B08;
+background: #DCCA87;
+width: 157px;
+height: 44px;
+margin-top: 32px;
+cursor: pointer;
+}
+.gericht--newflavour__img{
+padding-top: 95px;
+padding-left: 150px;
+}
+.gericht--newflavour__number{
+color: #FFFFFF;
+font-family: 'Cormorant Upright';
+font-style: normal;
+font-weight: 600;
+font-size: 16px;
+line-height: 175%;
+letter-spacing: 0.04em;
+text-transform: capitalize;
+font-feature-settings: 'tnum' on, 'lnum' on;
+padding-top: 78px;
+padding-left: 927px;
+}
