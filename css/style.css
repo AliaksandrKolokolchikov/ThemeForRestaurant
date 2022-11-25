@@ -166,3 +166,245 @@ font-feature-settings: 'tnum' on, 'lnum' on;
 padding-top: 78px;
 padding-left: 927px;
 }
+/* BLOCK 2 ABOUT US */
+
+.aboutus{
+    width: 1920px;
+    height: 959px;  
+}
+.aboutus--container__bg{
+    display: grid;
+    position: relative;
+}
+.aboutus--gbg{
+position: absolute;
+padding-top: 272px;
+padding-left: 765px;
+}
+.aboutus--knife{
+   position: absolute;
+   padding-left: 918px;
+   padding-top: 128px;
+}
+.aboutus__containerleft{
+    position: absolute;
+}
+.aboutus--title,.aboutus--title__rh{
+    font-family: 'Cormorant Upright';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 64px;
+    line-height: 130%;
+    letter-spacing: 0.03em;
+    text-transform: capitalize;
+    font-feature-settings: 'tnum' on, 'lnum' on;
+    color: #DCCA87;
+    padding-top: 334px;
+    padding-left: 581px;
+}
+.aboutus--icons{
+    padding-left: 793px;
+    padding-top: 8px;
+}
+.aboutus--text,.aboutus--text__rh{
+    font-family: 'Open Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 175%;
+letter-spacing: 0.04em;
+color: #AAAAAA;
+width: 470px;
+margin-left: 400px;
+padding-right: 0;
+padding-top: 32px;
+}
+.aboutus--text__rh{
+    margin-left: 0;
+}
+.aboutus--text__rh p{
+    width: 470px;
+}
+.aboutus--text p{
+    margin-left: 190px;
+}
+.aboutus--button,.aboutus--button__rh{
+ font-family: 'Cormorant Upright';
+font-style: normal;
+font-weight: 700;
+font-size: 16px;
+line-height: 175%;
+letter-spacing: 0.04em;
+color: #0C0C0C;
+width: 141px;
+height: 44px;
+margin-left: 692px;
+margin-top: 32px;
+background: #DCCA87;
+cursor: pointer;
+}
+.aboutus--button__rh{
+margin-left: 1087px;
+}
+
+.aboutus__containerright{
+    position: absolute;
+}
+.block{
+    padding-left: 1087px;
+}
+.aboutus--logo{
+    display: grid;
+    position: absolute;
+}
+.aboutus--logo__word{
+    padding-top: 935px;
+    padding-left: 1623px;
+}
+.aboutus--logo__scissors{
+    position: absolute;
+    margin-left: 1663.53px;
+    padding-top: 980px;
+}
+/* BLOCK 3 reservations  */
+.reservations{
+    width: 1920px;
+height: 1293px;
+background: #0C0B08;
+}
+.reservations--container{
+    background: #0C0C0C;
+border: 1px solid rgba(220, 202, 135, 0.2);
+box-shadow: 22px 30px 95px 1px rgba(0, 0, 0, 0.7);
+width: 1364px;
+height: 466px;
+margin-left: 276px;
+margin-top: 152px;
+position: absolute;
+}
+.reservations--name{
+    font-family: 'Cormorant Upright';
+font-style: normal;
+font-weight: 700;
+font-size: 23px;
+line-height: 130%;
+letter-spacing: 0.04em;
+text-transform: capitalize;
+font-feature-settings: 'tnum' on, 'lnum' on;
+color: #FFFFFF;
+text-align: center;
+margin-top: 48px;
+}
+.reservations--icons{
+    margin-left: 662px;
+    margin-top: 8px;
+    margin-bottom: 8px;
+}
+.reservations--title{
+    font-family: 'Cormorant Upright';
+font-style: normal;
+font-weight: 600;
+font-size: 64px;
+line-height: 130%;
+text-align: center;
+letter-spacing: 0.03em;
+text-transform: capitalize;
+font-feature-settings: 'tnum' on, 'lnum' on;
+color: #DCCA87;
+}
+.reservations--button{
+font-family: 'Cormorant Upright';
+font-style: normal;
+font-weight: 700;
+font-size: 16px;
+line-height: 175%;
+letter-spacing: 0.04em;
+color: #0C0C0C;
+width: 133px;
+height: 44px;
+background: #DCCA87;
+border: 1px solid #DCCA87;
+margin-left: 617.5px;
+margin-top: 196px;
+cursor: pointer;
+}
+/* DROP MENU */
+.dropdown{
+    width: 412px;
+    position: absolute;
+    margin: 2em;
+}
+.dropdown *{
+    box-sizing: border-box;
+}
+.dropdowntwo{
+    margin-left: 476px;
+}
+.dropdownthree{
+    margin-left: 920px;
+}
+.select{
+    background: #0C0C0C;
+    color: #AAAAAA;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: 1px solid #F5EFDB;
+    padding: 1em;
+    cursor: pointer;
+    transition: background 0.3s;
+    height: 60px;
+}
+.select-clicked{
+    border: 2px #26489a solid;
+    box-shadow: 0 0 0.8em #26489a;
+}
+.select:hover{
+    background: #323741;
+}
+.caret{
+    width: 0;
+    height: 0;
+    border-left: 5px solid transparent;
+    border-right: 5px solid transparent;
+border-top: 6px solid #fff;
+transition: 0.3s;
+}
+
+.caret-rotate{
+    transform: rotate(180deg);
+}
+.menu{
+    list-style: none;
+    padding: 0.2em 0.5em;
+    background: #323741;
+    border: 1px #363a43 solid;
+    box-shadow: 0 0.5em 1em rgba(0, 0, 0, 0.2);
+    border-radius: 0.5em;
+    color: #9fa5b5;
+    position: absolute;
+    top: 3em;
+    left: 50%;
+    width: 100%;
+    transform: translateX(-50%);
+    opacity: 0;
+    display: none;
+    transition: 0.2s;
+    z-index: 1;
+}
+.menu li{
+    padding: 0.7em 0.5em;
+    margin: 0.3em 0;
+    border-radius: 0.5em;
+    cursor: pointer;
+}
+.menu li:hover{
+    background: #2a2d35;
+}
+.active{
+    background: #23242a;
+}
+.menu-open{
+display: block;
+opacity: 1;
+}
