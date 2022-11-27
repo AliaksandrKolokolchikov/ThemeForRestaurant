@@ -29,6 +29,13 @@ line-height: normal;
 -webkit-font-smoothing: inherit;
 -moz-osx-font-smoothing: inherit;
 }
+@font-face {
+    font-family: "Bestermind";
+    src: url("../fonts/BestermindRegular.ttf") format("truetype");
+    font-weight: normal;
+    font-style: normal;
+    }
+
 .titlepage{
 width: 1920px;
 height: 1149px;
@@ -407,4 +414,678 @@ transition: 0.3s;
 .menu-open{
 display: block;
 opacity: 1;
+}
+/* BLOCK 4 BAR MENU */
+.barmenu{
+    width: 1920px;
+height: 900px;
+display: grid;
+}
+.barmenu--logo{
+    display: grid;
+    position: absolute;
+}
+.barmenu--logo__word{
+    padding-left: 145px;
+    padding-top: 10px;
+}
+.barmenu--logo__scissors{
+    padding-left: 185px;
+   position: absolute;
+   margin-top: 50px;
+}
+.barmenu--container{
+position: absolute;
+padding-left: 145px;
+font-family: 'Cormorant Upright';
+font-style: normal;
+font-weight: 600;
+font-size: 64px;
+line-height: 130%;
+letter-spacing: 0.03em;
+text-transform: capitalize;
+font-feature-settings: 'tnum' on, 'lnum' on;
+color: #FFFFFF;
+padding-top: 293px;
+}
+.barmenu--food{
+    margin-top: 64px;
+    margin-bottom: 64px;
+}
+.barmenu--menu:hover{
+text-decoration-line: underline;
+text-transform: capitalize;
+cursor: pointer;
+}
+.barmenu--food:hover{
+    text-decoration-line: underline;
+    text-transform: capitalize;  
+    cursor: pointer;  
+}
+.barmenu--dessrts:hover{
+    text-decoration-line: underline;
+    text-transform: capitalize;
+    cursor: pointer;    
+}
+/* BLOCK 5 TODAY MENU */
+.todaymenu{
+    width: 1920px;
+    height: 1274px;
+    background: #040404;
+}
+.todaymenu--pallate{
+font-family: 'Cormorant Upright';
+font-style: normal;
+font-weight: 700;
+font-size: 23px;
+line-height: 130%;
+letter-spacing: 0.04em;
+text-transform: capitalize;
+color: #FFFFFF;
+text-align: center;
+padding-top: 152px;
+}
+.todaymenu--icons{
+padding-left: 940px;
+padding-top: 8px;
+padding-bottom: 8px;
+}
+.todaymenu--title{
+    font-family: 'Cormorant Upright';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 64px;
+    line-height: 130%;
+    text-align: center;
+    letter-spacing: 0.04em;
+    text-transform: capitalize;
+    color: #DCCA87;
+}
+.todaymenu--prise__containerleft{
+    position: absolute;
+}
+.todaymenu--prise__title{
+font-family: 'Cormorant Upright';
+font-style: normal;
+font-weight: 600;
+font-size: 45px;
+line-height: 130%;
+letter-spacing: 0.04em;
+text-transform: capitalize;
+font-feature-settings: 'tnum' on, 'lnum' on;
+color: #FFFFFF;
+padding-left: 394.5px;
+padding-top: 96px;
+margin-bottom: 48px;
+}
+.todaymenu--pic__container{
+    display: grid;
+}
+.todaymenu--picture{
+    position: absolute;
+    padding-left: 754px;
+    padding-top: 64px;
+}
+.todaymenu--name__container{
+    display: flex;
+    align-items: center;
+}
+.todaymenu--name{
+font-family: 'Cormorant Upright';
+font-style: normal;
+font-weight: 700;
+font-size: 23px;
+line-height: 130%;
+letter-spacing: 0.04em;
+text-transform: capitalize;
+font-feature-settings: 'tnum' on, 'lnum' on;
+color: #DCCA87;
+margin-left: 310px;
+}
+.todaymenu--line{
+width: 119px;
+height: 1px;
+background: #FAFAFA;
+margin-left: 32px;
+margin-right: 32px;
+}
+.todaymenu--prise{
+font-family: 'Cormorant Upright';
+font-style: normal;
+font-weight: 700;
+font-size: 23px;
+line-height: 130%;
+letter-spacing: 0.04em;
+text-transform: capitalize;
+font-feature-settings: 'tnum' on, 'lnum' on;
+color: #FFFFFF;
+}
+.todaymenu--name__bottle{
+font-family: 'Open Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 175%;
+letter-spacing: 0.04em;
+color: #AAAAAA;
+padding-left: 310px;
+padding-top: 8px;
+padding-bottom: 41.5px;
+}
+.todaymenu--prise__containerright{
+    position: absolute;
+    padding-left: 888px;
+}
+.todaymenu--button{
+width: 136px;
+height: 44px;
+background: #DCCA87;
+font-family: 'Cormorant Upright';
+font-style: normal;
+font-weight: 700;
+font-size: 16px;
+line-height: 175%;
+letter-spacing: 0.04em;
+color: #0C0C0C;
+margin-left: 900px;
+margin-top: 796px;
+cursor: pointer;
+}
+/* BLOCK 6 CHEF */
+.chef{
+    background-image: url('../img/BG\ \(1\).png');
+    background-repeat: no-repeat;
+    width: 1920px;
+height: 1045px;
+}
+.chef--pictures{
+    padding-top: 128px;
+    padding-left: 310px;
+    position: absolute;
+}
+.chef--info__container{
+  padding-left: 1040px;  
+  padding-top: 215px;
+}
+.chef--word{
+font-family: 'Cormorant Upright';
+font-style: normal;
+font-weight: 700;
+font-size: 23px;
+line-height: 130%;
+letter-spacing: 0.04em;
+text-transform: capitalize;
+font-feature-settings: 'tnum' on, 'lnum' on;
+color: #FFFFFF;
+}
+.chef--icon{
+    padding-top: 8px;
+    padding-bottom: 8px;
+}
+.chef--title{
+font-family: 'Cormorant Upright';
+font-style: normal;
+font-weight: 600;
+font-size: 64px;
+line-height: 130%;
+letter-spacing: 0.03em;
+text-transform: capitalize;
+font-feature-settings: 'tnum' on, 'lnum' on;
+color: #DCCA87;
+padding-bottom: 76px;
+}
+.chef--text{
+font-family: 'Open Sans';
+font-style: italic;
+font-weight: 400;
+font-size: 16px;
+line-height: 175%;
+letter-spacing: 0.04em;
+color: #AAAAAA;
+width: 540px;
+padding-bottom: 64px;
+}
+.chef--kevin{
+    font-family: 'Cormorant Upright';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 130%;
+    letter-spacing: 0.04em;
+    text-transform: capitalize;
+    font-feature-settings: 'tnum' on, 'lnum' on;
+    color: #DCCA87; 
+}
+.chef--founder{
+font-family: 'Open Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 175%;
+letter-spacing: 0.04em;
+color: #AAAAAA;
+padding-top: 8px;
+padding-bottom: 64px;
+}
+.chef--signature{
+font-family: 'Bestermind';
+font-style: normal;
+font-weight: 400;
+font-size: 64px;
+line-height: 130%;
+letter-spacing: 0.04em;
+color: #AAAAAA;
+}
+.chef--logo{
+    display: grid;
+}
+.chef--logo__word{
+    padding-left: 1553.95px;
+    padding-top: 145px;
+}
+.chef--logo__scissors{
+    position: absolute;
+    padding-left: 1594px;
+    padding-top: 190px;
+}
+/* BLOCK 7 Testimony */
+.testimony{
+    width: 1920px;
+    height: 990px;
+    background: #0C0C0C;
+}
+.testimony--name__page{
+    font-family: 'Cormorant Upright';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 23px;
+    line-height: 130%;
+    letter-spacing: 0.04em;
+    text-transform: capitalize;
+    font-feature-settings: 'tnum' on, 'lnum' on;
+    color: #FFFFFF;
+    text-align: center;
+    padding-top: 152px;
+}
+.testimony--icon{
+    padding-top: 8px;
+    padding-bottom: 8px;
+    padding-left: 940px;
+}
+.testimony--title{
+    font-family: 'Cormorant Upright';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 64px;
+    line-height: 130%;
+    letter-spacing: 0.03em;
+    text-transform: capitalize;
+    font-feature-settings: 'tnum' on, 'lnum' on;
+    color: #DCCA87;
+    text-align: center;
+}
+.testimony--container{
+    display: flex;
+    position: absolute;
+}
+.testimony--photo__container{
+    display: grid;
+    padding-left: 340px;
+    padding-top: 50px;
+}
+.testimony--quotes{
+    position: absolute;
+    margin-top: 170px;
+    margin-left: 159px;
+}
+.testimony--text{
+    font-family: 'Open Sans';
+    font-style: italic;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 175%;
+    letter-spacing: 0.04em;
+    color: #AAAAAA;  
+    width: 380px;
+    margin-top: 50px;
+    margin-bottom: 16px;
+}
+.testimony--container__info{
+    margin-left: 32px;
+}
+.testimony--name{
+    font-family: 'Cormorant Upright';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 130%;
+    letter-spacing: 0.04em;
+    text-transform: capitalize;
+    font-feature-settings: 'tnum' on, 'lnum' on;
+    color: #DCCA87;
+    padding-top: 0;
+   text-align: left;
+   margin-bottom: 8px;
+}
+.testimony--caterer{
+    font-family: 'Open Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 175%;
+letter-spacing: 0.04em;
+color: #F5EFDB;
+}
+.testimony--containerbt{
+    display: flex;
+    position: absolute;
+    margin-top: 300px;
+}
+.testimony--containerrh{
+    padding-left: 640px;
+    display: flex;
+    margin-bottom: 60px;
+}
+/* BLOCK 8 VIDEO */
+.video{
+    background-image: url('../img/Video.png');
+    width: 1920px;
+height: 763px;
+}
+.video--logo{
+    display: grid;
+}
+.video--logo__word{
+    padding-top: 147px;
+    padding-left: 197px;
+}
+.video--logo__scissors{
+    position: absolute;
+    padding-top: 190.72px;
+    padding-left: 237.53px;
+}
+/* BLOCK 9 laurels */
+.laurels{
+    background-image: url('../img/Laurels.png');
+    width: 1920px;
+height: 947px;
+}
+.laurels--container{
+    padding-left: 310px;
+    padding-top: 246.5px;
+    position: absolute;
+}
+.laurels--name__page{
+    font-family: 'Cormorant Upright';
+font-style: normal;
+font-weight: 700;
+font-size: 23px;
+line-height: 130%;
+letter-spacing: 0.04em;
+text-transform: capitalize;
+font-feature-settings: 'tnum' on, 'lnum' on;
+color: #FFFFFF;
+}
+.laurels--icon{
+    padding-top: 8px;
+    padding-bottom: 8px;
+}
+.laurels--title{
+    font-family: 'Cormorant Upright';
+font-style: normal;
+font-weight: 600;
+font-size: 64px;
+line-height: 130%;
+letter-spacing: 0.03em;
+text-transform: capitalize;
+font-feature-settings: 'tnum' on, 'lnum' on;
+color: #DCCA87;
+padding-bottom: 64px;
+}
+.laurels--container__info{
+    display: flex;
+    position: absolute;
+}
+.laurels--container__infobt{
+    padding-top: 170px;
+    position: absolute;
+    display: flex;
+}
+.laurels--container__inforh{
+    position: absolute;
+    padding-left: 300px;
+    display: flex;
+}
+.laurels--container__inforhbt{
+    position: absolute;
+    padding-left: 300px;
+    display: flex;
+    padding-top: 170px;
+}
+.laurels--info__title{
+font-family: 'Cormorant Upright';
+font-style: normal;
+font-weight: 700;
+font-size: 23px;
+line-height: 130%;
+letter-spacing: 0.04em;
+text-transform: capitalize;
+font-feature-settings: 'tnum' on, 'lnum' on;
+color: #DCCA87;
+margin-left: 32px;
+width: 175px;
+}
+.laurels--info__text{
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 175%;
+    letter-spacing: 0.04em;
+    color: #AAAAAA;
+    position: absolute;
+    margin-left: 111px;
+    margin-top: 38px;
+width: 190px;
+}
+.laurels--pictures__container{
+    display: grid;
+    padding-top: 128px;
+    padding-left: 1127px;
+}
+.laurels--g{
+    position: absolute;
+    color: #FAFAFA;
+    margin-top: 312px;
+    margin-left: -72px;
+}
+/* BLOCK 10 BLOGS */
+.blogs{
+    width: 1920px;
+    height: 1388px;
+    background: #0C0B08;
+}
+.blogs--name__page{
+font-family: 'Cormorant Upright';
+font-style: normal;
+font-weight: 700;
+font-size: 23px;
+line-height: 130%;
+letter-spacing: 0.04em;
+text-transform: capitalize;
+font-feature-settings: 'tnum' on, 'lnum' on;
+color: #FFFFFF;
+text-align: center;
+padding-top: 152px;
+}
+.blogs--icon{
+    padding-top: 8px;
+    padding-bottom: 8px;
+    padding-left: 940px;
+}
+.blogs--title{
+font-family: 'Cormorant Upright';
+font-style: normal;
+font-weight: 600;
+font-size: 64px;
+line-height: 130%;
+letter-spacing: 0.03em;
+text-transform: capitalize;
+font-feature-settings: 'tnum' on, 'lnum' on;
+color: #DCCA87;
+text-align: center;
+}
+.blogs--container{
+    display: flex;
+    padding-left: 301px;
+}
+.blogs--info__container{
+    padding-left: 23px;
+    padding-top: 64px;
+}
+.blogs--year__container{
+    display: flex;
+    font-family: 'Open Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 175%;
+letter-spacing: 0.04em;
+color: #FAFAFA;
+margin-top: 24px;
+margin-bottom: 32px;
+}
+.blogs--name{
+    margin-left: 238px;
+}
+.blogs--namejuice{
+   margin-left: 219px; 
+}
+.blogs--nametomat{
+    margin-left: 260px;
+}
+.blogs--info__title{
+    font-family: 'Cormorant Upright';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 130%;
+    letter-spacing: 0.04em;
+    text-decoration-line: underline;
+    text-transform: capitalize;
+    font-feature-settings: 'tnum' on, 'lnum' on;
+    color: #DCCA87; 
+    width: 412px;
+    margin-bottom: 32px;
+}
+.blogs--info__text{
+font-family: 'Open Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 175%;
+letter-spacing: 0.04em;
+color: #AAAAAA;
+width: 352px;
+margin-bottom: 32px;
+}
+.blogs--info__readmore{
+font-family: 'Cormorant Upright';
+font-style: normal;
+font-weight: 700;
+font-size: 16px;
+line-height: 175%;
+letter-spacing: 0.04em;
+color: #DCCA87;
+cursor: pointer;
+}
+.blogs--button{
+ width: 136px;
+height: 44px;
+background: #DCCA87;
+font-family: 'Cormorant Upright';
+font-style: normal;
+font-weight: 700;
+font-size: 16px;
+line-height: 175%;
+letter-spacing: 0.04em;
+color: #0C0C0C;
+margin-top: 72px;
+margin-left: 892px;
+position: absolute;
+}
+.blogs--logo{
+    display: grid;
+    position: absolute;
+}
+.blogs--logo__word{
+    padding-left: 1682px;
+}
+.blogs--logo__scissors{
+    position: absolute;
+    padding-left: 1722px;
+    margin-top: 40px;
+}
+/* BLOCK 11 INSTA */
+.insta{
+    background-image: url('../img/BG\ \(1\).png');
+    width: 1920px;
+height: 705px;
+}
+.insta--name__page{
+padding-left: 310px;
+padding-top: 210px;
+ font-family: 'Cormorant Upright';
+font-style: normal;
+font-weight: 700;
+font-size: 23px;
+line-height: 130%;
+letter-spacing: 0.04em;
+text-transform: capitalize;
+font-feature-settings: 'tnum' on, 'lnum' on;
+color: #FFFFFF;
+}
+.insta--icon{
+    padding-top: 8px;
+    padding-bottom: 8px;
+    padding-left: 310px;
+}
+.insta--title{
+font-family: 'Cormorant Upright';
+font-style: normal;
+font-weight: 600;
+font-size: 64px;
+line-height: 130%;
+letter-spacing: 0.03em;
+text-transform: capitalize;
+font-feature-settings: 'tnum' on, 'lnum' on;
+color: #DCCA87;
+padding-left: 310px;
+padding-bottom: 24px;
+}
+.insta--text{
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 175%;
+    letter-spacing: 0.04em;
+    color: #AAAAAA;
+    width: 750px;
+    padding-left: 310px;
+    padding-bottom: 24px;
+}
+.insta--button{
+width: 136px;
+height: 44px;
+background: #DCCA87;
+border: 1px solid #DCCA87;
+font-family: 'Cormorant Upright';
+font-style: normal;
+font-weight: 700;
+font-size: 16px;
+line-height: 175%;
+letter-spacing: 0.04em;
+color: #0C0C0C;
+margin-left: 310px;
 }
