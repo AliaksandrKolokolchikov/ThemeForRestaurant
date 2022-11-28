@@ -10,7 +10,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Cormorant+Upright:wght@400;600;700&display=swap"
         rel="stylesheet">
-    <title>Document</title>
+    <title>Gerícht Bar</title>
 </head>
 
 <body>
@@ -24,9 +24,9 @@
                     <li class="navigation--list__item"><a class="hover" href="#Skills">Contact Us</a></li>
                     <li class="navigation--list__item"><a class="hover" href="#Portfolio">Blog</a></li>
                     <li class="navigation--list__item"><a class="hover" href="#Contacts">Landing</a></li>
-                    <div class="header--login"><a href="">Log In / Registration</a></div>
+                    <div class="header--login"><a class="hover" href="#">Log In / Registration</a></div>
                     <img class="header--line" src="./icons/Line.png" alt="#">
-                    <div class="header--book">book table</div>
+                    <div class="header--book hover">book table</div>
                 </ul>
             </nav>
         </header>
@@ -39,7 +39,7 @@
                     <div class="gericht--newflavour__text">Sit tellus lobortis sed senectus vivamus molestie.
                         Condimentum
                         volutpat morbi facilisis quam scelerisque sapien. Et, penatibus aliquam amet tellus </div>
-                    <button class="gericht--newflavour__button">Explore Menu</button>
+                    <button class="gericht--newflavour__button hoverbutton">Explore Menu</button>
                 </div>
                 <img class="gericht--newflavour__img" src="./img/Hero img.png" alt="#">
             </div>
@@ -60,7 +60,7 @@
                     adipiscing
                     ultrices vulputate posuere tristique. In sed <p> odio nec aliquet eu proin mauris et. </p>
                 </div>
-                <button class="aboutus--button">Know More</button>
+                <button class="aboutus--button hoverbutton">Know More</button>
             </div>
             <div class="aboutus__containerright">
                 <div class="aboutus--title__rh block">Our History</div>
@@ -70,12 +70,13 @@
                         Risus
                         placerat morbi volutpat habitasse interdum mi aliquam In sed odio nec aliquet.</p>
                 </div>
-                <button class="aboutus--button__rh ">Know More</button>
+                <button class="aboutus--button__rh hoverbutton">Know More</button>
+                <div class="aboutus--logo">
+                    <img class="aboutus--logo__word" src="./icons/Group 83.png" alt="#">
+                    <img class="aboutus--logo__scissors" src="./icons/Group 80.png" alt="#">
+                </div>
             </div>
-            <div class="aboutus--logo">
-                <img class="aboutus--logo__word" src="./icons/Group 83.png" alt="#">
-                <img class="aboutus--logo__scissors" src="./icons/Group 80.png" alt="#">
-            </div>
+
         </div>
     </section>
     <section class="reservations">
@@ -125,7 +126,7 @@
                 </ul>
             </div>
 
-            <button class="reservations--button">Book Now</button>
+            <button class="reservations--button hoverbutton">Book Now</button>
         </div>
     </section>
 
@@ -229,7 +230,7 @@
             </div>
             <div class="todaymenu--name__bottle">Gin | Sweet Vermouth | Campari | Orange garnish</div>
         </div>
-        <button class="todaymenu--button">View More</button>
+        <button class="todaymenu--button hoverbutton">View More</button>
     </section>
     <section class="chef">
         <img class="chef--pictures" src="./img/Image.png" alt="#">
@@ -392,21 +393,78 @@
                 <div class="blogs--info__readmore">Read More</div>
             </div>
         </div>
-        <button class="blogs--button">View More</button>
+        <button class="blogs--button hoverbutton">View More</button>
         <div class="blogs--logo">
             <img class="blogs--logo__word" src="./icons/Group 83.png" alt="#">
             <img class="blogs--logo__scissors" src="./icons/Group 80.png" alt="#">
         </div>
     </section>
     <section class="insta">
-        <div class="insta--name__page">Instagram</div>
-        <img class="insta--icon" src="./icons/Frame 17.png" alt="#">
-        <div class="insta--title">Photo Gallery</div>
-        <div class="insta--text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Volutpat mattis ipsum turpis
-            elit elit scelerisque egestas mu.</div>
-        <button class="insta--button">View More</button>
+        <div class="insta--container">
+            <div class="insta--container__info">
+                <div class="insta--name__page">Instagram</div>
+                <img class="insta--icon" src="./icons/Frame 17.png" alt="#">
+                <div class="insta--title">Photo Gallery</div>
+                <div class="insta--text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Volutpat mattis ipsum
+                    turpis
+                    elit elit scelerisque egestas mu.</div>
+                <button class="insta--button hoverbutton">View More</button>
+            </div>
+            <div class="insta--container__photo">
+                <img src="./img/egg insta.png" alt="#">
+                <img class="insta--wisky" src="./img/wisky insta.png" alt="#">
+                <img src="./img/frideegg insta.png" alt="#">
+            </div>
+        </div>
+        <div class="insta--logo">
+            <img class="insta--logo__word" src="./icons/Group 83.png" alt="#">
+            <img class="insta--logo__scissors" src="./icons/Group 80.png" alt="#">
+        </div>
+    </section>
+    <section class="subscribe">
+        <div class="subscribe--container">
+            <div class="subscribe--name">Newsletter</div>
+            <img class="subscribe--icon" src="./icons/Frame 17.png" alt="#">
+            <div class="subscribe--title">Subscribe to Our Newsletter</div>
+            <div class="subscribe--text">And never miss latest Updates!</div>
+            <div class="subscribe--search__container">
+                <input class="subscribe--search " type="Email Address">
+                <button class="subscribe--button hoverbutton">Subscribe</button>
+            </div>
+        </div>
     </section>
     </main>
+    <footer class="footer">
+        <div class="footer--container__info">
+            <div class="footer--container__infoleft">
+                <div class="footer--info__title">Contact Us</div>
+                <div class="footer--info__text">9 W 53rd St, New York, NY 10019, USA</div>
+                <div class="footer--info__mobile">+1 212-344-1230</div>
+                <div class="footer--info__mobile">+1 212-555-1230</div>
+            </div>
+            <div class="footer--container__infocenter">
+                <div class="footer--infocenter__title">Gerícht</div>
+                <div class="footer--infocenter__text">"The best way to find yourself is to lose yourself in the service
+                    of
+                    others.”</div>
+                <img class="footer--infocenter__icon" src="./icons/Frame 17.png" alt="#">
+                <div class="footer--infocenter__social">
+                    <img src="./icons/u_facebook-f.png" alt="#">
+                    <img class="social--twitter" src="./icons/u_twitter-alt.png" alt="#">
+                    <img src="./icons/u_instagram.png" alt="#">
+                </div>
+                <span class="footer--infocenter__bottom">2021 Gerícht. All Rights reserved.</span>
+            </div>
+            <div class="footer--container__inforh">
+                <div class="footer--inforh__title">Working Hours</div>
+                <div class="footer--inforh__day">Monday-Friday:</div>
+                <div class="footer--inforh__time">08:00 am -12:00 am</div>
+                <div class="footer--inforh__day">Saturday-Sunday:</div>
+                <div class="footer--inforh__time">07:00am -11:00 pm</div>
+            </div>
+
+        </div>
+    </footer>
     <script src="./js/script.js"></script>
 
 </body>
